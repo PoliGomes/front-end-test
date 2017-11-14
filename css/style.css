@@ -1,0 +1,158 @@
+body {
+    margin: -4px;
+    font-family: Helvetica, sans-serif
+}
+.cabecalho {
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #2F84D2;
+}
+.menu {
+    display: inline-block;
+    width: 30px;
+    padding: 7%;
+}
+.menu span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    margin: 15%;   
+    background: #1E2E40;
+}
+.logo {
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+}
+.conteudo {
+    padding-top: 25%;
+    background: #E7ECED;
+}
+.destaque {
+    padding: 5%;
+}
+.destaque h1 {
+    color: #222F3F;
+}
+.destaque img {
+    width: 100%;
+}
+.titulo-img-destaque {
+    padding: 2%;
+    background: #2F84D2;
+    color: #E7ECED;
+    opacity: 0.9;
+    text-transform: uppercase;
+}
+.imagens__01, .imagens__02, .imagens__03 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5%;
+}
+.imagens__01 img, .imagens__02 img, .imagens__03 img {
+    width: 100%;
+    padding-bottom: 3%;
+}
+.imagens__01__titulo, .imagens__02__titulo, .imagens__03__titulo {
+    padding: 2%;
+    background: #DF352F;
+    color: #E7ECED;
+    opacity: 0.9;
+    text-transform: uppercase;
+}
+.noticias {
+    padding: 5%;
+}
+.noticias h2, .noticias p {
+    color: #222F3F;
+    font-weight: normal;
+}
+.noticias p {
+    padding-bottom: 5%;
+    border-bottom: 1px solid #222F3F;
+}
+.noticias h3 {
+    color: #3882B7;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.noticias img {
+    width: 100%;
+}
+.artigos {
+    padding: 5%;
+}
+.artigos h2 {
+    color: #3896E4;
+    font-weight: normal;
+}
+.artigos p {
+    margin: 2%;
+    padding: 2%;
+    font-size: 0.9em;
+    color: #222F3F;
+    border-bottom: 1px solid #222F3F;
+}
+.artigos :last-child {
+    border: none;
+}
+.arquivos {
+    padding: 5%;
+}
+.arquivos h2 {
+    color: #DF352F;
+    font-weight: normal;
+
+}
+.arquivos__conteudo {
+    width: 90%;
+    padding-top: 5%;
+}
+.arquivos__conteudo img {
+    width: 45%;
+}
+.arquivos__conteudo div {
+    width: 50%;
+    float: right;
+    color: #222F3F;
+}
+.arquivos__conteudo div h3 {
+    margin: 0;
+    color: #DF352F;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+.publicidade {
+    width: 60%;
+    padding: 5%;
+    text-align: right;
+    color: #222F3F;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.publicidade img {
+    width: 100%;
+}
+.rodape {
+    box-sizing: border-box;
+    padding: 5%;
+    background: #222F3F;
+    color: #E7ECED;
+    font-size: 0.8em;
+}
+.voltar {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 4%;    
+    text-transform: uppercase;
+    font-size: 1.0em;
+    text-align: right;
+    background: #3086D3;
+    color: #E7ECED;
+
+}
